@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Nuevos Estilos CCS3</title>
+    <script>
+    function mostrarAlerta(){
+      alert('hizo click');
+    }
+    function hacerClick(){
+      document.getgetElementsByTagName('p')[0].onclick=mostrarAlerta;
+    }
+    window.onload=hacerClick;
+    </script>
+    <link rel="stylesheet" href="nuevocss3.css">
+  </head>
+  <body>
+    <header id="principal">
+      <span id="titulo">Estilos CSS Web 2.0</span>
+      <p>Hacer click</p>
+      <p>no se puede hacer click</p>
+    </header>
+
+  </body>
+</html>
